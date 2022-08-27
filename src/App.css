@@ -1,0 +1,216 @@
+body {
+  background-color: rgb(180, 146, 146);
+  font-family: "Courier New", Courier, monospace;
+}
+/* class name of at least 14 elements */
+.flex-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main-container {
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+/* ART */
+.art {
+  z-index: -1;
+  height: 60vh;
+  width: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.dig-area-container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+.dig-area {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.miner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.area-bg {
+  width: 100%;
+  height: 100%;
+}
+/* INTERACTIVE CONTROLS SECTION */
+.controls {
+  row-gap: 2rem;
+  background-color: rgb(160, 120, 136);
+  border-radius: 24px;
+  padding: 1rem;
+}
+/* Slider Section */
+.slider-container {
+  row-gap: 0.4rem;
+}
+.multiplier {
+  font-weight: 700;
+}
+/* AXES */
+.axes {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.axe {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid green;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.axe:hover {
+  transform: scale(1.1);
+}
+/* CPS, MPS, COINS. */
+.cps-mps-coin {
+  min-width: 50%;
+}
+.coins-value {
+  font-weight: 700;
+  font-size: 1.2rem;
+  padding: 0 0.2rem;
+}
+.mine-coin-value {
+  font-weight: 700;
+}
+/* MINER AND HIS\HER AXE */
+/* Miner Profile */
+.miners {
+  row-gap: 30px;
+}
+/* zzz */
+.hire-btn {
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.4rem;
+  background-color: rgb(94, 56, 90);
+  color: antiquewhite;
+  cursor: pointer;
+}
+.hire-btn:hover {
+  opacity: 0.8;
+}
+.hire-btn:active {
+  transform: scale(0.9);
+}
+.miner-container {
+  flex-direction: row;
+  column-gap: 30px;
+}
+.miner-profile {
+  flex-direction: row;
+}
+.miner-img-and-selection {
+  flex-direction: row;
+  column-gap: 20px;
+  padding-right: 20px;
+}
+.miner-img {
+  width: 80px;
+  height: 80px;
+  padding-right: 20px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.miner-img:hover {
+  transform: scale(1.1);
+}
+.level-up-icon {
+  width: 20px;
+}
+.attributes {
+  align-items: flex-start;
+  row-gap: 0.3rem;
+}
+.attribute {
+  flex-direction: row;
+  cursor: pointer;
+}
+.attribute:hover {
+  opacity: 0.8;
+  color: #d9d9d9;
+}
+.attribute:active {
+  transform: scale(0.9);
+}
+.attribute-value {
+  font-weight: 800;
+  font-size: 1.1rem;
+}
+.level-up-icon {
+  cursor: pointer;
+}
+.level-up-icon:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+}
+.level-up-icon:active {
+  transform: scale(1);
+}
+/* Axe Profile */
+.miners-axe {
+  column-gap: 20px;
+}
+.axe-properties {
+  row-gap: 0.4rem;
+}
+.durability-wrapper {
+  border: 1px solid black;
+  height: 12px;
+  width: 100px;
+}
+.durability-gauge {
+  height: 100%;
+  background-color: green;
+  transition: width 0.1s ease;
+}
+.empty-padding-remove-me-later {
+  height: 200px;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1220px) {
+  .main-container {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 545px) {
+  .art {
+    width: 90vw;
+  }
+  .miner-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .miners-axe {
+    align-self: flex-start;
+  }
+}
