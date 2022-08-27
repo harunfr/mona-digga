@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "//mona-digga/static/css/main.5dcf2238.css",
-    "main.js": "//mona-digga/static/js/main.21e476a2.js",
-    "static/media/mona-lisa.webp": "//mona-digga/static/media/mona-lisa.8eb8aa44abd7695c5705.webp",
-    "static/media/pickaxes.webp": "//mona-digga/static/media/pickaxes.c239eec80d82dce1ea38.webp",
-    "static/media/plus.webp": "//mona-digga/static/media/plus.7d815e519f9d4ecfe113.webp",
-    "index.html": "//mona-digga/index.html",
-    "main.5dcf2238.css.map": "//mona-digga/static/css/main.5dcf2238.css.map",
-    "main.21e476a2.js.map": "//mona-digga/static/js/main.21e476a2.js.map"
+    "main.css": "/mona-digga/static/css/main.5dcf2238.css",
+    "main.js": "/mona-digga/static/js/main.1b1e37bf.js",
+    "static/media/mona-lisa.webp": "/mona-digga/static/media/mona-lisa.8eb8aa44abd7695c5705.webp",
+    "static/media/pickaxes.webp": "/mona-digga/static/media/pickaxes.c239eec80d82dce1ea38.webp",
+    "static/media/plus.webp": "/mona-digga/static/media/plus.7d815e519f9d4ecfe113.webp",
+    "index.html": "/mona-digga/index.html",
+    "main.5dcf2238.css.map": "/mona-digga/static/css/main.5dcf2238.css.map",
+    "main.1b1e37bf.js.map": "/mona-digga/static/js/main.1b1e37bf.js.map"
   },
   "entrypoints": [
     "static/css/main.5dcf2238.css",
-    "static/js/main.21e476a2.js"
+    "static/js/main.1b1e37bf.js"
   ]
 }
